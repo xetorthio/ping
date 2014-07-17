@@ -1,6 +1,7 @@
 [
   {
     "service": "api",
+    "profile": "gilt-architecture",
     "domain": "api.ping.architecture.giltaws.com",
     "instances": 2,
     "healthpath": "/ping",
