@@ -1,0 +1,15 @@
+[
+  {
+    "service": "api",
+    "domain": "api.ping.architecture.giltaws.com",
+    "instances": 2,
+    "healthpath": "/ping",
+    "run": {
+      "image": "xetorthio/ping",
+      "args": [
+        "-p",
+        "9000:3000"
+      ]
+    }
+  }
+]
