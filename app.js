@@ -1,7 +1,7 @@
 var http = require('http');
 
 http.createServer(function(req, res) {
-  if(req.url == '/ping') {
+  if(req.url == '/_internal_/healthcheck') {
     res.writeHead(200);
     res.end('pong');
   } else if(req.url == '/echo') {
